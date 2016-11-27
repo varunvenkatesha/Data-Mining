@@ -1,17 +1,17 @@
 # Frequent-Itemset-Mining
 
 1. Pseudo Code
-  >> Parse the input files.
-  >> Store all the items in map<Integer, List<String>> database.
-  >> Compute frequency of all the elements and store it is map<String, Integer> frequency. 
-  >> Take minSup condition as input.
-  >> If (frequency of item < minSup) {
-  >>       Remove that item from dataSet. 
-  >> }
-  >> Sort the items in the dataSet based on the frequency as priority.
-  >> Create a root and add child by accessing the all the lists from the map.
-  >> After forming FP Tree create conditional FP tree and Pattern base considering minSup. 
-  >> Output frequent patterns of FP Tree.
+  -> Parse the input files.
+  -> Store all the items in map<Integer, List<String>> database.
+  -> Compute frequency of all the elements and store it is map<String, Integer> frequency. 
+  -> Take minSup condition as input.
+  -> If (frequency of item < minSup) {
+  ->       Remove that item from dataSet. 
+  -> }
+  -> Sort the items in the dataSet based on the frequency as priority.
+  -> Create a root and add child by accessing the all the lists from the map.
+  -> After forming FP Tree create conditional FP tree and Pattern base considering minSup. 
+  -> Output frequent patterns of FP Tree.
   
 2. Creating FP Tree and Conditional FP Tree
     Step 1:
